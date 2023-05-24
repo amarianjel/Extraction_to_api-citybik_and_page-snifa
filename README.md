@@ -1,4 +1,4 @@
-# Proytecto Django
+# Proyecto Django
 
 ## Tarea 1
 Dada la siguiente API pública https://api.citybik.es/v2/networks/bikerio desarrolle los siguiente requerimientos:
