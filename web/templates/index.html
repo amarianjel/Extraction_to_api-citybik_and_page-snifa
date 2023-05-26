@@ -1,2 +1,49 @@
-<h1>Welcome DJANGO</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat modi asperiores ducimus explicabo nisi, consequuntur doloribus aliquid! Quisquam sint, soluta ratione itaque iusto architecto commodi. Accusamus quia minus assumenda laudantium.</p>
+<head>
+    <!-- Boostrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+</head>
+<body>
+    <h1>Welcome to DJANGO</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat modi asperiores ducimus explicabo nisi, consequuntur doloribus aliquid! Quisquam sint, soluta ratione itaque iusto architecto commodi. Accusamus quia minus assumenda laudantium.</p>
+    <hr>
+    <div class="table-responsive-sm">
+        <table class="table table-bordered border-primary">
+            <thead class="table-dark">
+                <tr>
+                    <th>#</th>
+                    <th>Empty Slots</th>
+                    <th >ID</th>
+                    <th>Name</th>
+                    <th>Free Bikes</th>
+                    <th>Latitude</th>
+                    <th>Longitude</th>
+                    <th>Timestamp</th>
+                    <th>Address</th>
+                    <th>Normal Bikes</th>
+                    <th>Payment</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for station_data in info %}
+                <tr>
+                    <td>{{ station_data.contador }}</td>
+                    <td>{{ station_data.empty_slots }}</td>
+                    <td>{{ station_data.id }}</td>
+                    <td>{{ station_data.name }}</td>
+                    <td>{{ station_data.free_bikes }}</td>
+                    <td>{{ station_data.latitude }}</td>
+                    <td>{{ station_data.longitude }}</td>
+                    <td>{{ station_data.timestamp }}</td>
+                    <td>{{ station_data.address }}</td>
+                    <td>{{ station_data.normal_bikes }}</td>
+                    <td>{{ station_data.payment | join:", " }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
