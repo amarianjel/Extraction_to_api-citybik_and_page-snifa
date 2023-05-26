@@ -18,3 +18,11 @@ Dada la siguiente url https://snifa.sma.gob.cl/Sancionatorio/Resultado desarroll
 -	Generar modelo para guardar la información obtenida.
 -	Opcional. Generar vista en el administrador para visualizar la información obtenida.
 -	Opcional. Generar una vista con la información en Bootstrap 5 u otro similar.
+
+
+
+# Librerias
+
+pip install request
+
+pip install psycopg2
