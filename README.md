@@ -26,3 +26,15 @@ Dada la siguiente url https://snifa.sma.gob.cl/Sancionatorio/Resultado desarroll
 pip install request
 
 pip install psycopg2
+
+## Para usar bdd
+- Instalar la bdd de datos a ocupar, luego configurarla en DATABASES{} (aplicacionBase/setting.py).
+- *Comandos*
+> 1-. _python manage.py makemigrations_
+> 2-. _python manage.py migrate_
+- Crear la tabla en models.py y agregar en INSTALLED_APPS (setting.py) la aplicacion base.
+- Ejecutar las migraciones *Comandos*
+> 1-. _python manage.py makemigrations web_
+> 2-. _python manage.py migrate web_
+
+##
