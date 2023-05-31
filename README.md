@@ -39,4 +39,16 @@ pip install psycopg2
 _Si la bdd se borro desde postgres, realizar pasos para la conexion desde el princio creando una nueva bdd_
 
 
-##
+
+
+
+
+
+
+
+## Eliminar venv y restaurar
+- Exportar la lista de paquetes mediante _pip freeze > requirements.txt_
+- Luego cerrar el entorno y eliminar la carpeta.
+- Para restaurar, seguir los mismos pasos para crearlo _python -m venv nombreENV_
+- Activarlo y instalar las dependencias _pip install -r requirements.txt_
+
