@@ -61,7 +61,7 @@ Django ve asi las aplicaciones, se pueden ir quitando o agregando como funcional
 `python manage.py startapp nombreAplicacion`
 
 
-# BDD POSTGRESQL
+##### BDD PostgreSQL
 - Instalar la bdd de datos a ocupar, luego configurarla en DATABASES{} (aplicacionBase/setting.py). Comandos Generales primero
 1. `python manage.py makemigrations`
 2. `python manage.py migrate`
@@ -79,7 +79,7 @@ Django ve asi las aplicaciones, se pueden ir quitando o agregando como funcional
 
 
 
-# Eliminar venv y restaurar
+## Eliminar venv y restaurar
 - Exportar la lista de paquetes mediante `pip freeze > requirements.txt`
 - Luego cerrar el entorno y eliminar la carpeta.
 - Para restaurar, seguir los mismos pasos para crearlo `python -m venv nombreENV`
