@@ -1,6 +1,7 @@
 # Proyecto Django
 
-A continuación se muestra un [Link](https://www.opengis.ch/wp-content/uploads/2020/04/django-python-logo.png "Logo DJANGO").
+![Logo DJANGO](https://www.opengis.ch/wp-content/uploads/2020/04/django-python-logo.png)
+
 
 ## Tarea 1
 Dada la siguiente API pública <https://api.citybik.es/v2/networks/bikerio> desarrolle los siguiente requerimientos:
@@ -21,7 +22,6 @@ Dada la siguiente url <https://snifa.sma.gob.cl/Sancionatorio/Resultado> desarro
 -	Opcional. Generar vista en el administrador para visualizar la información obtenida.
 -	Opcional. Generar una vista con la información en Bootstrap 5 u otro similar.
 
-https://www.opengis.ch/wp-content/uploads/2020/04/django-python-logo.png
 
 # Librerias adicionales
 
