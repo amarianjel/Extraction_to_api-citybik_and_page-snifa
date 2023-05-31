@@ -29,6 +29,9 @@ Dada la siguiente url <https://snifa.sma.gob.cl/Sancionatorio/Resultado> desarro
 
 `pip install psycopg2`
 
+<p align="center">
+  <img src="https://www.opengis.ch/wp-content/uploads/2020/04/django-python-logo.png" alt="Descripción de la imagen">
+</p>
 
 
 # Crear el entorno virtual
