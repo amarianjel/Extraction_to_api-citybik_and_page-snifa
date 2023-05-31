@@ -35,31 +35,40 @@ Dada la siguiente url <https://snifa.sma.gob.cl/Sancionatorio/Resultado> desarro
 
 # Crear el entorno virtual
 - Una vez dento de la carpeta madre, se crea el entorno virtual. Primero se instala.
-> 1-. `pip install virtualenv`
+1. `pip install virtualenv`
 - Creo ahora el entorno virtual.
-> 2-. `virtualenv venv`
+2. `virtualenv venv`
 - Ahora se debe ejecutar o activar.
-> 3-. _./venv/Scripts/activate_
+3. _./venv/Scripts/activate_
 - Finalmente con F1 puedo seleccionar el python que yo deseo para mi trabajo.
 
 # Instalar DJANGO
-> 1-. `pip install django`
-> 2-. `django-admin --version`
+1. `pip install django`
+2. `django-admin --version`
 - Ahora para crear al proyecto inicial debemos utilizar el siguiente comando seguido de la carpeta como se llamara. ***El punto es para decirle que coloque la carpeta en la raiz y no que en la raiz realice una capeta y dentro de ella el proyecto.***
-> 3-. `django-admin startproyect nombreDelProyecto .`
+3. `django-admin startproyect nombreDelProyecto .`
+- Para correr el archivo
+4. `python manage.py runserver 8000`
 
 
+# Aplicaciones
+Django ve asi las aplicaciones, se pueden ir quitando o agregando como funcionalidades
 
+<p align="center">
+  <img src="Aplicaciones.png" alt="Forma de que ve DJango">
+</p>
+
+`python manage.py startapp nombreAplicacion`
 
 
 # BDD POSTGRESQL
 - Instalar la bdd de datos a ocupar, luego configurarla en DATABASES{} (aplicacionBase/setting.py). Comandos Generales primero
-- > 1-. `python manage.py makemigrations`
-- > 2-. `python manage.py migrate`
+1. `python manage.py makemigrations`
+2. `python manage.py migrate`
 - Crear la tabla en models.py y agregar en INSTALLED_APPS (setting.py) la aplicacion base.
 - Ejecutar las migraciones
-- > 1-. `python manage.py makemigrations nombreAplicacion`
-- > 2-. `python manage.py migrate nombreAplicacion`
+1. `python manage.py makemigrations nombreAplicacion`
+2. `python manage.py migrate nombreAplicacion`
 *Si la bdd se borro desde postgres, realizar pasos para la conexion desde el principio creando una nueva bdd*
 
 
