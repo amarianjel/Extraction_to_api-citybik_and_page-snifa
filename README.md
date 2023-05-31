@@ -55,7 +55,7 @@ Dada la siguiente url <https://snifa.sma.gob.cl/Sancionatorio/Resultado> desarro
 Django ve asi las aplicaciones, se pueden ir quitando o agregando como funcionalidades
 
 <p align="center">
-  <img src="Aplicaciones.png" alt="Forma de que ve DJango">
+  <img src="./Aplicaciones-django.png" alt="Forma de que ve DJango">
 </p>
 
 `python manage.py startapp nombreAplicacion`
