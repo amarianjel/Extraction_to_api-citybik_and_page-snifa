@@ -25,19 +25,19 @@
                 </tr>
             </thead>
             <tbody>
-                {% for station_data in info %}
+                {% for station in stations %}
                 <tr>
-                    <td>{{ station_data.contador }}</td>
-                    <td>{{ station_data.empty_slots }}</td>
-                    <td>{{ station_data.id }}</td>
-                    <td>{{ station_data.name }}</td>
-                    <td>{{ station_data.free_bikes }}</td>
-                    <td>{{ station_data.latitude }}</td>
-                    <td>{{ station_data.longitude }}</td>
-                    <td>{{ station_data.timestamp }}</td>
-                    <td>{{ station_data.address }}</td>
-                    <td>{{ station_data.normal_bikes }}</td>
-                    <td>{{ station_data.payment | join:", " }}</td>
+                    <td>{{ station.contador }}</td>
+                    <td>{{ station.empty_slots }}</td>
+                    <td>{{ station.id }}</td>
+                    <td>{{ station.name }}</td>
+                    <td>{{ station.free_bikes }}</td>
+                    <td>{{ station.latitude }}</td>
+                    <td>{{ station.longitude }}</td>
+                    <td>{{ station.timestamp }}</td>
+                    <td>{{ station.address }}</td>
+                    <td>{{ station.normal_bikes }}</td>
+                    <td>{{ station.payment | join:", " }}</td>
                 </tr>
                 {% endfor %}
             </tbody>
