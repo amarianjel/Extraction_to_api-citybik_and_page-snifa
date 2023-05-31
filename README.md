@@ -1,7 +1,8 @@
 # Proyecto Django
 
-![Logo DJANGO](https://www.opengis.ch/wp-content/uploads/2020/04/django-python-logo.png)
-
+<p align="center">
+  <img src="https://www.opengis.ch/wp-content/uploads/2020/04/django-python-logo.png" alt="Logo Django">
+</p>
 
 ## Tarea 1
 Dada la siguiente API pública <https://api.citybik.es/v2/networks/bikerio> desarrolle los siguiente requerimientos:
@@ -29,9 +30,7 @@ Dada la siguiente url <https://snifa.sma.gob.cl/Sancionatorio/Resultado> desarro
 
 `pip install psycopg2`
 
-<p align="center">
-  <img src="https://www.opengis.ch/wp-content/uploads/2020/04/django-python-logo.png" alt="Descripción de la imagen">
-</p>
+
 
 
 # Crear el entorno virtual
@@ -44,8 +43,8 @@ Dada la siguiente url <https://snifa.sma.gob.cl/Sancionatorio/Resultado> desarro
 - Finalmente con F1 puedo seleccionar el python que yo deseo para mi trabajo.
 
 # Instalar DJANGO
-> 1-. `pip install django`
-> 2-. `django-admin --version`
+>> 1-. `pip install django`
+>> 2-. `django-admin --version`
 - Ahora para crear al proyecto inicial debemos utilizar el siguiente comando seguido de la carpeta como se llamara. ***El punto es para decirle que coloque la carpeta en la raiz y no que en la raiz realice una capeta y dentro de ella el proyecto.***
 > 3-. `django-admin startproyect nombreDelProyecto .`
 
