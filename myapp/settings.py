@@ -83,8 +83,8 @@ WSGI_APPLICATION = 'myapp.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'Prueba de la Prueba',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'extraction_request',
         'USER': 'postgres',
         'PASSWORD': 'root',
         'HOST': 'localhost',
