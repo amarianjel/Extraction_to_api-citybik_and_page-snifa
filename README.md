@@ -36,5 +36,7 @@ pip install psycopg2
 - Ejecutar las migraciones *Comandos*
 > 1-. _python manage.py makemigrations web_
 > 2-. _python manage.py migrate web_
+_Si la bdd se borro desde postgres, realizar pasos para la conexion desde el princio creando una nueva bdd_
+
 
 ##
