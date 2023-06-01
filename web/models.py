@@ -13,6 +13,9 @@ class Station(models.Model):
     address = models.CharField(max_length=255)
     normal_bikes = models.IntegerField()
     payment = models.CharField(max_length=255)
+    
+    class Meta:
+        ordering = ['contador']
 
 
 

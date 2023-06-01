@@ -46,7 +46,8 @@ Dada la siguiente url <https://snifa.sma.gob.cl/Sancionatorio/Resultado> desarro
 1. `pip install django`
 2. `django-admin --version`
 - Ahora para crear al proyecto inicial debemos utilizar el siguiente comando seguido de la carpeta como se llamara. ***El punto es para decirle que coloque la carpeta en la raiz y no que en la raiz realice una capeta y dentro de ella el proyecto.***
-3. `django-admin startproyect nombreDelProyecto .`
+3. `django-admin startproject nombreDelProyecto .` django-admin startproject myapp .
+
 - Para correr el archivo
 4. `python manage.py runserver 8000`
 
@@ -84,6 +85,7 @@ Django ve asi las aplicaciones, se pueden ir quitando o agregando como funcional
 - Luego cerrar el entorno y eliminar la carpeta.
 - Para restaurar, seguir los mismos pasos para crearlo `python -m venv nombreENV`
 - Activarlo y instalar las dependencias `pip install -r requirements.txt`
+- **Finalmente puedo crear las carpetas nuevamente y copiar los archivos con los comandos para cada aplicacion.
 
 
 |Columna 1|Columna 2|

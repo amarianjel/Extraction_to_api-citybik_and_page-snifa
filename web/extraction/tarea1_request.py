@@ -30,17 +30,16 @@ def obtener_informacion_api(contador):
             defaults = defaults
         )
         
-        # # Verificar si se creó un nuevo objeto o se actualizó uno existente
-        # if not created:
-        #     # Comprobar si hay modificaciones y actualizar el objeto existente si es necesario
-        #     is_updated = False
-        #     for field, value in defaults.items():
-        #         if getattr(obj, field) != value:
-        #             setattr(obj, field, value)
-        #             is_updated = True
+        # Comprobar si hay modificaciones y actualizar el objeto existente si es necesario
+        if not created:
+            is_updated = False
+            for field, value in defaults.items():
+                if getattr(obj, field) != value:
+                    setattr(obj, field, value)
+                    is_updated = True
 
-        #     if is_updated:
-        #         obj.save()
+            if is_updated:
+                obj.save()
 
         print(contador, "-. ", station_data["name"])
 

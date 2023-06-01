@@ -5,12 +5,11 @@ from .models import Station
 
 # Create your views here.
 def index(request):
-    cont = 0
-    # lib_request.obtener_informacion_api(cont)
-    # TODO: Recupero la tabla que tengo en la BDD y la retorno por parametro
-    #stations = Station.objects.all()
-    print("***********************************\n Pase a station \n************************")
-    stations = Station.objects.order_by('contador') # Ordenados por el contador
+    cont = 1    # Aqui me doy cuenta si la libreria se puede editar o no
+    lib_request.obtener_informacion_api(cont)
+
+    # TODO: Recupero la tabla que tengo en la BDD y la retorno por parametr
+    stations = Station.objects.order_by('contador')
     return render(request, 'index.html', {'stations': stations})
 
 def hello(request):
