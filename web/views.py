@@ -6,14 +6,14 @@ from .models import Station
 # Create your views here.
 def index(request):
     cont = 1    # Aqui me doy cuenta si la libreria se puede editar o no
-    lib_request.obtener_informacion_api(cont)
+    #lib_request.obtener_informacion_api(cont)
 
-    # TODO: Recupero la tabla que tengo en la BDD y la retorno por parametr
+    # TODO: Recupero la tabla que tengo en la BDD y la retorno por parametro
     stations = Station.objects.order_by('contador')
     return render(request, 'index.html', {'stations': stations})
 
-def hello(request):
-    return HttpResponse("<h1>Hola Mundo</h1>")
+def selenium(request):
+    return render(request, 'selenium.html')
 
 def about(request):
     return HttpResponse("<h1>About</h1>")

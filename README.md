@@ -56,7 +56,7 @@ Dada la siguiente url <https://snifa.sma.gob.cl/Sancionatorio/Resultado> desarro
 Django ve asi las aplicaciones, se pueden ir quitando o agregando como funcionalidades
 
 <p align="center">
-  <img src="./Aplicaciones-django.png" alt="Forma de que ve DJango">
+  <img src="./web/static/img/Aplicaciones-django.png" alt="Forma de que ve DJango">
 </p>
 
 `python manage.py startapp nombreAplicacion`
@@ -75,11 +75,6 @@ Django ve asi las aplicaciones, se pueden ir quitando o agregando como funcional
 
 
 
-
-
-
-
-
 ## Eliminar venv y restaurar
 - Exportar la lista de paquetes mediante `pip freeze > requirements.txt`
 - Luego cerrar el entorno y eliminar la carpeta.
@@ -88,7 +83,8 @@ Django ve asi las aplicaciones, se pueden ir quitando o agregando como funcional
 - **Finalmente puedo crear las carpetas nuevamente y copiar los archivos con los comandos para cada aplicacion.
 
 
-|Columna 1|Columna 2|
+| **NOMBRE** | **SÍMBOLO** |
 |--------|--------|
-|    A    |    B    |
-|    C    |    D    |
+| *Template inheritance* | {% url 'index' %} |
+| *Jinja Loops* | {% for station in stations %} |
+| *Static Files* | {% load static %} |

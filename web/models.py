@@ -17,9 +17,6 @@ class Station(models.Model):
     class Meta:
         ordering = ['contador']
 
-
-
-
 # class Project(models.Model):  #+ Le digo que cree una tabla llamada proyect 
 #     name = models.CharField( max_length = 255 )
 
