@@ -38,12 +38,10 @@ body {
 }
 
 /* Tabla */
-.table-container {
-    margin-top: 10%;
-}
 
 table {
-    margin: 5%;
+    margin-left: auto;
+    margin-right: auto;
     background-color: white;
     border-collapse: collapse;
     border: none;
@@ -97,16 +95,16 @@ td:hover {
 }
 
 /* Botones */
-body {
+.cuerpoBTN {
     display: flex;
     flex-direction: row;
     gap: 40px;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 5vh;
     background: #222;
 }
-a {
+.aBTN {
     position: relative;
     display: inline-block;
     padding: 20px 45px;
@@ -120,23 +118,21 @@ a {
     transition: 0.5s;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
-a:nth-child(1) {
+.aBTN:nth-child(1) {
     filter: hue-rotate(690deg);
 }
-a:nth-child(3) {
-    filter: hue-rotate(110deg);
-}
-a:hover {
+
+.aBTN:hover {
     background: #03e9f4;
     color: #222;
     box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
     0 0 100px #03e9f4;
 }
-a span {
+.aBTN span {
     position: absolute;
     display: block;
 }
-a span:nth-child(1) {
+.aBTN span:nth-child(1) {
     top: 0;
     left: -100%;
     width: 100%;
@@ -153,7 +149,7 @@ a span:nth-child(1) {
     left: 100%;
     }
 }
-a span:nth-child(2) {
+.aBTN span:nth-child(2) {
     right: 0;
     top: -100%;
     width: 2px;
@@ -171,7 +167,7 @@ a span:nth-child(2) {
     top: 100%;
     }
 }
-a span:nth-child(3) {
+.aBTN span:nth-child(3) {
     bottom: 0;
     right: -100%;
     width: 100%;
@@ -189,7 +185,7 @@ a span:nth-child(3) {
     right: 100%;
     }
 }
-a span:nth-child(4) {
+.aBTN span:nth-child(4) {
     left: 0;
     bottom: -100%;
     width: 2px;
