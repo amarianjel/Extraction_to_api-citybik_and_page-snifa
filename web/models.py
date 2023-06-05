@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.postgres.fields import ArrayField
 
 # Create your models here.
 class Station(models.Model):
@@ -16,6 +17,16 @@ class Station(models.Model):
     
     class Meta:
         ordering = ['contador']
+
+class Keypay(models.Model):
+    station = models.OneToOneField(Station, primary_key=True, on_delete=models.CASCADE)
+    metodos = ArrayField(models.CharField(max_length=64, null=True), size=5, null=True)
+    name = models.CharField(max_length=255)
+    
+    def __str__(self):
+        return f"Keypay: {self.name}"
+
+
 
 # class Project(models.Model):  #+ Le digo que cree una tabla llamada proyect 
 #     name = models.CharField( max_length = 255 )

@@ -1,6 +1,7 @@
 import json
 from urllib import request
 from web.models import Station
+from web.models import Keypay
 
 
 # URL SEMILLA
@@ -12,7 +13,7 @@ json_obtenido = json.loads( respuesta.read().decode('utf-8') ) #JSON formateado
 
 def obtener_informacion_api(contador):
     for station_data in json_obtenido["network"]["stations"]:
-        defaults = {
+        station_defaults = {
             "contador": contador,
             "empty_slots": station_data["empty_slots"],
             "name": station_data["name"],
@@ -25,25 +26,55 @@ def obtener_informacion_api(contador):
             "payment": station_data["extra"]["payment"],
         }
         
-        obj, created = Station.objects.get_or_create(
+        station_obj, created = Station.objects.get_or_create(
             id = station_data["id"],
-            defaults = defaults
+            defaults = station_defaults
         )
         
-        # Comprobar si hay modificaciones y actualizar el objeto existente si es necesario
+        # Actualizar el objeto existente si es necesario
         if not created:
             is_updated = False
-            for field, value in defaults.items():
-                if getattr(obj, field) != value:
-                    setattr(obj, field, value)
+            for field, value in station_defaults.items():
+                if getattr(station_obj, field) != value:
+                    setattr(station_obj, field, value)
                     is_updated = True
 
             if is_updated:
-                obj.save()
+                station_obj.save()
+        
+        #+ Crear o actualizar el objeto Keypay asociado a la estación
+        keypay_defaults = {
+            "name": f"Keypay de => {station_obj.name}",
+        }
 
-        print(contador, "-. ", station_data["name"])
+        methods = []  # Lista para almacenar los métodos
+
+        # Sacar los métodos del arreglo "payment"
+        for method in station_data["extra"]["payment"]:
+            methods.append(method)
+
+        keypay_defaults["metodos"] = methods 
+        
+        keypay_obj, keypay_created = Keypay.objects.get_or_create(
+            station = station_obj,
+            defaults = keypay_defaults
+        )
+
+        if not keypay_created:
+            # Actualizar el objeto Keypay existente si es necesario
+            is_keypay_updated = False
+            for field, value in keypay_defaults.items():
+                if getattr(keypay_obj, field) != value:
+                    setattr(keypay_obj, field, value)
+                    is_keypay_updated = True
+
+            if is_keypay_updated:
+                keypay_obj.save()
+                
+        print(contador, "-. ", station_defaults["name"])
 
         contador += 1
+
     print("----------------------------------------------\n Recorrido listo \n----------------------------------------------\n")
 
 

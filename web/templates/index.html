@@ -5,6 +5,58 @@
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat modi asperiores ducimus explicabo nisi, consequuntur doloribus aliquid! Quisquam sint, soluta ratione itaque iusto architecto commodi. Accusamus quia minus assumenda laudantium.</p>
 <hr>
 
+<body>
+    <a href="">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Neon
+    </a>
+    <a href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Light
+    </a>
+    <a href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Button
+    </a>
+</body>
+
+<div class="table-container">
+    <table class="table table-bordered border-primary">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Methods</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for keypay in keypays %}
+            <tr>
+                <td>{{ keypay.station_id }}</td>
+                <td>{{ keypay.name }}</td>
+                <td>
+                    <ul class="numbered-list">
+                        {% for method in keypay.metodos %}
+                            <li>{{ method }}</li>
+                        {% endfor %}
+                    </ul>                
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+
 <div class="table-container">
     <table class="table table-bordered border-primary">
         <thead class="table-dark">
@@ -23,6 +75,9 @@
             </tr>
         </thead>
         <tbody>
+            <h1>Arreglo:</h1>
+            <p>
+        
             {% for station in stations %}
             <tr>
                 <td>{{ station.contador }}</td>
@@ -35,7 +90,7 @@
                 <td>{{ station.timestamp }}</td>
                 <td>{{ station.address }}</td>
                 <td>{{ station.normal_bikes }}</td>
-                <td>{{ station.payment | join:", " }}</td>
+                <td>{{ station.payment | join:"-" }}</td>
             </tr>
             {% endfor %}
         </tbody>
