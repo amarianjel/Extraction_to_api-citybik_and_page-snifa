@@ -23,14 +23,12 @@ Dada la siguiente url <https://snifa.sma.gob.cl/Sancionatorio/Resultado> desarro
 -	Opcional. Generar vista en el administrador para visualizar la información obtenida.
 -	Opcional. Generar una vista con la información en Bootstrap 5 u otro similar.
 
-
-# Librerias adicionales
+# Request
+## Librerias adicionales
 
 `pip install request`
 
 `pip install psycopg2`
-
-
 
 
 # Crear el entorno virtual
@@ -74,7 +72,6 @@ Django ve asi las aplicaciones, se pueden ir quitando o agregando como funcional
 
 
 
-
 ## Eliminar venv y restaurar
 - Exportar la lista de paquetes mediante `pip freeze > requirements.txt`
 - Luego cerrar el entorno y eliminar la carpeta.
@@ -88,3 +85,33 @@ Django ve asi las aplicaciones, se pueden ir quitando o agregando como funcional
 | *Template inheritance* | {% url 'index' %} |
 | *Jinja Loops* | {% for station in stations %} |
 | *Static Files* | {% load static %} |
+
+
+
+# Selenium
+
+## Librerias adicionales
+`pip install selenium`
+`pip install webdriver_manager`
+
+## Estructura estatica del proyecto
+```
+.
+├── LICENSE
+├── README.md
+├── app
+
+
+request_selenium/
+    myapp/
+        static/
+          # archivos estáticos de myapp
+    web/
+        static/
+          # archivos estáticos de web
+    static/
+        # archivos estáticos del proyecto
+    staticfiles/
+        # directorio de archivos estáticos recolectados
+    manage.py
+    settings.py```

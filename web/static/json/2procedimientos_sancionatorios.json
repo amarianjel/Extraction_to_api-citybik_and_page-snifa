@@ -1,0 +1,452 @@
+[
+    {
+        "Numero": "1",
+        "Expediente": "D-131-2023",
+        "Unidad_Fiscalizadora": "AV\u00cdCOLA GONZ\u00c1LEZ HERMANOS LIMITADA",
+        "Nombre": "AVICOLA GONZALEZ HERMANOS LIMITADA",
+        "Categoria": "Agroindustrias",
+        "Region": "Regi\u00f3n de Valpara\u00edso",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "2",
+        "Expediente": "F-022-2023",
+        "Unidad_Fiscalizadora": "PLANTA METAL\u00daRGICA MAGNETITA CMP",
+        "Nombre": "COMPA\u00d1IA MINERA DEL PACIFICO S.A.",
+        "Categoria": "Miner\u00eda",
+        "Region": "Regi\u00f3n de Atacama",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "3",
+        "Expediente": "D-129-2023",
+        "Unidad_Fiscalizadora": "CES CANAL COCKBURN 13 (RNA 120127)",
+        "Nombre": "NOVA AUSTRAL S.A",
+        "Categoria": "Pesca y Acuicultura",
+        "Region": "Regi\u00f3n de Magallanes y la Ant\u00e1rtica Chilena",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "4",
+        "Expediente": "D-125-2023",
+        "Unidad_Fiscalizadora": "CES MINA ELENA (RNA 120130)",
+        "Nombre": "Salmones Blumar Magallanes SpA",
+        "Categoria": "Pesca y Acuicultura",
+        "Region": "Regi\u00f3n de Magallanes y la Ant\u00e1rtica Chilena",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "5",
+        "Expediente": "D-123-2023",
+        "Unidad_Fiscalizadora": "EDIFICIO LYON LAS VIOLETAS",
+        "Nombre": "CONSTRUCTORA ALMAHUE S.A.",
+        "Categoria": "Vivienda e Inmobiliarios",
+        "Region": "Regi\u00f3n Metropolitana",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "6",
+        "Expediente": "D-119-2023",
+        "Unidad_Fiscalizadora": "CES GARC\u00cdA 1 (RNA 110315)",
+        "Nombre": "MOWI CHILE S.A.",
+        "Categoria": "Pesca y Acuicultura",
+        "Region": "Regi\u00f3n de Ays\u00e9n del General Carlos Ib\u00e1\u00f1ez del Campo",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "7",
+        "Expediente": "D-226-2022",
+        "Unidad_Fiscalizadora": "RESTAURANT EL HUAIRAVO",
+        "Nombre": "SOCIEDAD DE SERVICIOS TURISTICOS LATUR LTDA",
+        "Categoria": "Equipamiento",
+        "Region": "Regi\u00f3n de Los R\u00edos",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "8",
+        "Expediente": "D-026-2023",
+        "Unidad_Fiscalizadora": "CONDOMINIO EL MOLINO LA DEHESA",
+        "Nombre": "MONDAK MAQUINARIAS SPA",
+        "Categoria": "Vivienda e Inmobiliarios",
+        "Region": "Regi\u00f3n Metropolitana",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "9",
+        "Expediente": "D-118-2023",
+        "Unidad_Fiscalizadora": "PROYECTO MINERO TIERRA DEL FUEGO DIVISION EL DORADO",
+        "Nombre": "SOCIEDAD DE INVERSIONES TIERRA DEL FUEGO LIMITADA",
+        "Categoria": "Miner\u00eda",
+        "Region": "Regi\u00f3n de Coquimbo",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "10",
+        "Expediente": "D-117-2023",
+        "Unidad_Fiscalizadora": "EDIFICIO PADRE LE PAIGE ALMAGRO",
+        "Nombre": "ALMAGRO S.A.",
+        "Categoria": "Vivienda e Inmobiliarios",
+        "Region": "Regi\u00f3n Metropolitana",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "11",
+        "Expediente": "D-114-2023",
+        "Unidad_Fiscalizadora": "EDIFICIO HOY ESTORIL",
+        "Nombre": "CONSTRUCTORA BRAVO E IZQUIERDO LIMITADA",
+        "Categoria": "Vivienda e Inmobiliarios",
+        "Region": "Regi\u00f3n Metropolitana",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "12",
+        "Expediente": "A-020-2023",
+        "Unidad_Fiscalizadora": "LOTEO CONJUNTO HABITACIONAL EX FUNDICION",
+        "Nombre": "SERVICIO REGIONAL DE VIVIENDA Y URBANISMO SERVIU VIII REGION",
+        "Categoria": "Vivienda e Inmobiliarios",
+        "Region": "Regi\u00f3n del Biob\u00edo",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "13",
+        "Expediente": "D-111-2023",
+        "Unidad_Fiscalizadora": "CONSTRUCCI\u00d3N BUCAREST 50",
+        "Nombre": "EMPRESA CONSTRUCTORA MENA Y OVALLE S A",
+        "Categoria": "Vivienda e Inmobiliarios",
+        "Region": "Regi\u00f3n Metropolitana",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "14",
+        "Expediente": "D-116-2023",
+        "Unidad_Fiscalizadora": "PLANTA PROCESADORA DE RECURSOS HIDROBIOLOGICOS PUERTO DEMAISTRE",
+        "Nombre": "PROCESADORA DUMESTRE LIMITADA",
+        "Categoria": "Pesca y Acuicultura",
+        "Region": "Regi\u00f3n de Magallanes y la Ant\u00e1rtica Chilena",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "15",
+        "Expediente": "F-020-2023",
+        "Unidad_Fiscalizadora": "EDIFICIO BAQUEDANO",
+        "Nombre": "COMUNIDAD EDIFICIO BAQUEDANO",
+        "Categoria": "Vivienda e Inmobiliarios",
+        "Region": "Regi\u00f3n de los Lagos",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "16",
+        "Expediente": "F-018-2023",
+        "Unidad_Fiscalizadora": "COMUNIDAD EDIFICIO PLAZA",
+        "Nombre": "COMUNIDAD EDIFICIO PLAZA",
+        "Categoria": "Vivienda e Inmobiliarios",
+        "Region": "Regi\u00f3n de los Lagos",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "17",
+        "Expediente": "F-019-2023",
+        "Unidad_Fiscalizadora": "Astillero Etchepare",
+        "Nombre": "ETCHEPARE Y BERGER LTDA.",
+        "Categoria": "Infraestructura Portuaria",
+        "Region": "Regi\u00f3n de Los R\u00edos",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "18",
+        "Expediente": "D-110-2023",
+        "Unidad_Fiscalizadora": "MATANZA BAR",
+        "Nombre": "INVERSIONES ANAMAR SPA",
+        "Categoria": "Equipamiento",
+        "Region": "Regi\u00f3n de Atacama",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "19",
+        "Expediente": "D-112-2023",
+        "Unidad_Fiscalizadora": "ESCOMBRERA FAMILIA PARRA HUMEDAL VASCO DA GAMA",
+        "Nombre": "Heraldo Jes\u00fas Parra Pincheira",
+        "Categoria": "Equipamiento",
+        "Region": "Regi\u00f3n del Biob\u00edo",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "20",
+        "Expediente": "D-109-2023",
+        "Unidad_Fiscalizadora": "URBANA CENTER APOQUINDO",
+        "Nombre": "INMOBILIARIA TORRE APOQUINDO SPA",
+        "Categoria": "Vivienda e Inmobiliarios",
+        "Region": "Regi\u00f3n Metropolitana",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "21",
+        "Expediente": "D-101-2023",
+        "Unidad_Fiscalizadora": "Yass Pub",
+        "Nombre": "Yasna Rutz Retalamal",
+        "Categoria": "Equipamiento",
+        "Region": "Regi\u00f3n de Atacama",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "22",
+        "Expediente": "D-102-2023",
+        "Unidad_Fiscalizadora": "Piscolog\u00eda Bar",
+        "Nombre": "SOCIEDAD DE INVERSIONES Y SERVICIOS ESFERICA LTDA.",
+        "Categoria": "Equipamiento",
+        "Region": "Regi\u00f3n de Atacama",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "23",
+        "Expediente": "D-107-2023",
+        "Unidad_Fiscalizadora": "L\u00cdDER EXPRESS PEDRO DE VALDIVIA",
+        "Nombre": "ADMINISTRADORA DE SUPERMERCADOS EXPRESS",
+        "Categoria": "Equipamiento",
+        "Region": "Regi\u00f3n Metropolitana",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "24",
+        "Expediente": "D-106-2023",
+        "Unidad_Fiscalizadora": "Supermercado San Nicol\u00e1s Marchihue",
+        "Nombre": "SOCIEDAD DE INVERSIONES MORALES Y ROMERO LIMITADA",
+        "Categoria": "Equipamiento",
+        "Region": "Regi\u00f3n del Libertador General Bernardo O'Higgins",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "25",
+        "Expediente": "D-108-2023",
+        "Unidad_Fiscalizadora": "CONSTRUCCI\u00d3N EDIFICIO GARDEN MACUL",
+        "Nombre": "CONSTRUCTORA SANTOLAYA LIMITADA",
+        "Categoria": "Vivienda e Inmobiliarios",
+        "Region": "Regi\u00f3n Metropolitana",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "26",
+        "Expediente": "D-104-2023",
+        "Unidad_Fiscalizadora": "PATIO PANAL - RENCA",
+        "Nombre": "PANAL SPA",
+        "Categoria": "Equipamiento",
+        "Region": "Regi\u00f3n Metropolitana",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "27",
+        "Expediente": "D-103-2023",
+        "Unidad_Fiscalizadora": "EDIFICIO LUNA",
+        "Nombre": "ONE ADMINISTRACION SPA",
+        "Categoria": "Vivienda e Inmobiliarios",
+        "Region": "Regi\u00f3n Metropolitana",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "28",
+        "Expediente": "D-087-2023",
+        "Unidad_Fiscalizadora": "PROYECTO ALBAMAR 2",
+        "Nombre": "BEZANILLA INMOBILIARIA LIMITADA",
+        "Categoria": "Vivienda e Inmobiliarios",
+        "Region": "Regi\u00f3n de Valpara\u00edso",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "29",
+        "Expediente": "D-088-2023",
+        "Unidad_Fiscalizadora": "BROMUS BAR",
+        "Nombre": "BAR MANIA LIMITADA",
+        "Categoria": "Equipamiento",
+        "Region": "Regi\u00f3n de los Lagos",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "30",
+        "Expediente": "D-105-2023",
+        "Unidad_Fiscalizadora": "TALLER DE SOLDADURAS JM",
+        "Nombre": "JULIO MU\u00d1OZ ROBLES",
+        "Categoria": "Equipamiento",
+        "Region": "Regi\u00f3n de los Lagos",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "31",
+        "Expediente": "D-096-2023",
+        "Unidad_Fiscalizadora": "Mal de Puna",
+        "Nombre": "Sim\u00f3n Carrera",
+        "Categoria": "Equipamiento",
+        "Region": "Regi\u00f3n de Antofagasta",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "32",
+        "Expediente": "D-100-2023",
+        "Unidad_Fiscalizadora": "CONDOMINIO PALMAS DEL SUR II",
+        "Nombre": "RVC INGENIERIA Y CONSTRUCCION S.A.",
+        "Categoria": "Vivienda e Inmobiliarios",
+        "Region": "Regi\u00f3n de Antofagasta",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "33",
+        "Expediente": "D-086-2023",
+        "Unidad_Fiscalizadora": "PROYECTO ALTO MIRADOR TORRE 1-RVC",
+        "Nombre": "RVC INGENIERIA Y CONSTRUCCION S.A.",
+        "Categoria": "Vivienda e Inmobiliarios",
+        "Region": "Regi\u00f3n de Valpara\u00edso",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "34",
+        "Expediente": "D-089-2023",
+        "Unidad_Fiscalizadora": "BIOPLASTIC CALERA DE TANGO",
+        "Nombre": "POLIETILENO BIOPLASTIC CHILE LTDA.",
+        "Categoria": "Instalaci\u00f3n fabril",
+        "Region": "Regi\u00f3n Metropolitana",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "35",
+        "Expediente": "D-098-2023",
+        "Unidad_Fiscalizadora": "SOCIEDAD COMERCIALIZADORA PANILWE SPA (EX M\u00c1QUINAS EUROACERO)",
+        "Nombre": "COMERCIALIZADORA PA\u00d1ILWE SPA",
+        "Categoria": "Instalaci\u00f3n fabril",
+        "Region": "Regi\u00f3n Metropolitana",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "36",
+        "Expediente": "A-019-2023",
+        "Unidad_Fiscalizadora": "CES HUMOS 4 (RNA 110679)\nCES HUMOS 3 (RNA 110739)",
+        "Nombre": "AUSTRALIS MAR S.A",
+        "Categoria": "Pesca y Acuicultura\nPesca y Acuicultura",
+        "Region": "Regi\u00f3n de Ays\u00e9n del General Carlos Ib\u00e1\u00f1ez del Campo",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "37",
+        "Expediente": "A-018-2023",
+        "Unidad_Fiscalizadora": "CES MATILDE 2 (RNA 110778)\nCES MATILDE 1 (RNA 110722)",
+        "Nombre": "AUSTRALIS MAR S.A",
+        "Categoria": "Pesca y Acuicultura\nPesca y Acuicultura",
+        "Region": "Regi\u00f3n de Ays\u00e9n del General Carlos Ib\u00e1\u00f1ez del Campo",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "38",
+        "Expediente": "F-017-2023",
+        "Unidad_Fiscalizadora": "COMPLEJO TERMOELECTRICO VENTANAS",
+        "Nombre": "AES ANDES S.A.\nEMPRESA ELECTRICA VENTANAS S.P.A.\nEMPRESA ELECTRICA CAMPICHE S.A.",
+        "Categoria": "Energ\u00eda",
+        "Region": "Regi\u00f3n de Valpara\u00edso",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "39",
+        "Expediente": "D-097-2023",
+        "Unidad_Fiscalizadora": "TERMINAL MARITIMO DE QUINTERO ENAP",
+        "Nombre": "ENAP REFINERIAS S.A.",
+        "Categoria": "Infraestructura Portuaria",
+        "Region": "Regi\u00f3n de Valpara\u00edso",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "40",
+        "Expediente": "D-083-2023",
+        "Unidad_Fiscalizadora": "EDIFICIO PLAZA VICTORIA",
+        "Nombre": "INGENIERA Y CONSTRUCCION EDCO LIMITADA",
+        "Categoria": "Vivienda e Inmobiliarios",
+        "Region": "Regi\u00f3n de \u00d1uble",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "41",
+        "Expediente": "D-095-2023",
+        "Unidad_Fiscalizadora": "CENTRO DE EVENTOS BOSQUE LUZ",
+        "Nombre": "JAGUARES PRODUCCIONES SPA",
+        "Categoria": "Equipamiento",
+        "Region": "Regi\u00f3n Metropolitana",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "42",
+        "Expediente": "F-016-2023",
+        "Unidad_Fiscalizadora": "VERTEDERO MUNICIPAL COMUNA DE QUELLON",
+        "Nombre": "ILUSTRE MUNICIPALIDAD DE QUELLON",
+        "Categoria": "Saneamiento Ambiental",
+        "Region": "Regi\u00f3n de los Lagos",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "43",
+        "Expediente": "A-015-2023",
+        "Unidad_Fiscalizadora": "CES MU\u00d1OZ GAMERO 3 (RNA 120223)",
+        "Nombre": "SALMONES ISLAS DEL SUR LTDA.",
+        "Categoria": "Pesca y Acuicultura",
+        "Region": "Regi\u00f3n de Magallanes y la Ant\u00e1rtica Chilena",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "44",
+        "Expediente": "D-094-2023",
+        "Unidad_Fiscalizadora": "CES MU\u00d1OZ GAMERO 1 (RNA 120174)",
+        "Nombre": "AUSTRALIS MAR S.A",
+        "Categoria": "Pesca y Acuicultura",
+        "Region": "Regi\u00f3n de Magallanes y la Ant\u00e1rtica Chilena",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "45",
+        "Expediente": "D-092-2023",
+        "Unidad_Fiscalizadora": "CES C\u00d3RDOVA 4 (RNA 120191)",
+        "Nombre": "AUSTRALIS MAR S.A",
+        "Categoria": "Pesca y Acuicultura",
+        "Region": "Regi\u00f3n de Magallanes y la Ant\u00e1rtica Chilena",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "46",
+        "Expediente": "A-016-2023",
+        "Unidad_Fiscalizadora": "CES CORDOVA 5 (RNA 120217) ACU\u00cdCOLA CORDILLERA",
+        "Nombre": "AUSTRALIS MAR S.A",
+        "Categoria": "Pesca y Acuicultura",
+        "Region": "Regi\u00f3n de Magallanes y la Ant\u00e1rtica Chilena",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "47",
+        "Expediente": "A-017-2023",
+        "Unidad_Fiscalizadora": "CES PAN DE AZ\u00daCAR (RNA 120170)\nCES MU\u00d1OZ GAMERO 2 (RNA 120195)\nCES PUNTA RAM\u00d3N (RNA 120189)",
+        "Nombre": "AUSTRALIS MAR S.A",
+        "Categoria": "Pesca y Acuicultura\nPesca y Acuicultura\nPesca y Acuicultura",
+        "Region": "Regi\u00f3n de Magallanes y la Ant\u00e1rtica Chilena",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "48",
+        "Expediente": "D-040-2023",
+        "Unidad_Fiscalizadora": "CAFETER\u00cdA EL TALLER",
+        "Nombre": "HECA SPA",
+        "Categoria": "Equipamiento",
+        "Region": "Regi\u00f3n Metropolitana",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "49",
+        "Expediente": "D-079-2023",
+        "Unidad_Fiscalizadora": "HOSPITAL CL\u00cdNICO UC",
+        "Nombre": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+        "Categoria": "Equipamiento",
+        "Region": "Regi\u00f3n Metropolitana",
+        "Estado": "En curso"
+    },
+    {
+        "Numero": "50",
+        "Expediente": "A-012-2023",
+        "Unidad_Fiscalizadora": "CES RABUDOS (RNA 110803)",
+        "Nombre": "AUSTRALIS MAR S.A",
+        "Categoria": "Pesca y Acuicultura",
+        "Region": "Regi\u00f3n de Ays\u00e9n del General Carlos Ib\u00e1\u00f1ez del Campo",
+        "Estado": "En curso"
+    }
+]

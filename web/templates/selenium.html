@@ -1,17 +1,59 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Extracción con Selenium</title>
-</head>
-<body>
-    {% extends 'navbar.html' %}
-    {% block content %}
 
-    <h1>Extracción con Selenium</h1>
+{% extends 'navbar.html' %}
+{% block content %}
 
-    {% endblock %}
-</body>
-</html>
+<h1>Welcome to DJANGO</h1>
+<p>SELENIUM es una biblioteca de Python que se utiliza para la automatización de navegadores web. Permite controlar un navegador web de forma programática y realizar acciones como hacer clic en elementos, completar formularios, obtener contenido de una página web, realizar capturas de pantalla y mucho más. selenium es útil cuando necesitas interactuar con páginas web dinámicas que requieren JavaScript para funcionar correctamente.</p>
+<hr>
+<br>
+<table>
+    <thead>
+        <tr>
+        <th>#</th>
+        <th>Expediente</th>
+        <th>Unidad Fiscalizadora</th>
+        <th>Nombre</th>
+        <th>Categoria</th>
+        <th>Region</th>
+        <th>Estado</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for dato in selenium_json %}
+        <tr>
+            <td>{{ dato.Numero }}</td>
+            <td>{{ dato.Expediente }}</td>
+            <td>{{ dato.Unidad_Fiscalizadora }}</td>
+            <td>{{ dato.Nombre }}</td>
+            <td>{{ dato.Categoria }}</td>
+            <td>{{ dato.Region }}</td>
+            <td>{{ dato.Estado }}</td>
+            <td>{{ dato.FechaInicio }}</td>
+            <td>{{ dato.FechaTermino }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>  
+
+
+
+<br>
+<hr>
+
+<h1>Contenido del archivo JSON como API:</h1>
+<div id="json-container"></div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $.getJSON("/static/json/procedimientos_sancionatorios.json", function(data) {
+            // Manipula y muestra el contenido del JSON
+            var contenido = JSON.stringify(data, null, 4);
+            $("#json-container").text(contenido);
+        });        
+    });
+</script>
+
+
+
+
+{% endblock %}
