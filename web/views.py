@@ -18,7 +18,7 @@ def index(request):
     return render(request, 'index.html', { 'stations': stations, 'keypays': keypays })
 
 def selenium(request):
-    lib_selenium.paginaProcedimientosSancionatorios()
+    #lib_selenium.paginaProcedimientosSancionatorios()
 
     # Cargar los datos del archivo JSON
     with open("web\static\json\procedimientos_sancionatorios.json") as archivo_json:

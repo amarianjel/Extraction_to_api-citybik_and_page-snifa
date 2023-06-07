@@ -23,10 +23,6 @@ def obtener_detalles(driver, enlace, datos):
 
     inicio = driver.find_element(By.XPATH, '/html/body/div[6]/div[3]/div/div[1]/div/div/h4[1]/i[2]').text
 
-    t = driver.find_element(By.XPATH, '/html/body').text
-
-    print(type(t), " => ", t)
-
     verDetalles = {
         "F_Inicio": inicio,
     }

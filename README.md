@@ -1,10 +1,23 @@
-# Proyecto Django
+# [Índice]
+
+- [Proyecto Django](#proyecto-django)
+- [Tarea 1](#tarea-1)
+- [Tarea 2](#tarea-2)
+- [Request](#request)
+- [Librerias adicionales](#librerias-adicionales)
+- [Crear el entorno virtual](#crear-el-entorno-virtual)
+- [Instalar DJANGO](#instalar-django)
+- [Aplicaciones](#aplicaciones)
+- [BDD PostgreSQL](#bdd-postgresql)
+- [Eliminar venv y restaurar](#eliminar-venv-y-restaurar)
+
+# Proyecto Django (https://www.djangoproject.com/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/django/django)
 
 <p align="center">
   <img src="https://www.opengis.ch/wp-content/uploads/2020/04/django-python-logo.png" alt="Logo Django">
 </p>
 
-# Tarea 1
+## Tarea 1
 Dada la siguiente API pública <https://api.citybik.es/v2/networks/bikerio> desarrolle los siguiente requerimientos:
 
 -	Crear una función que obtenga la información presentada en la API pública (librerías a utilizar: requests, urllib3 o aiohttp).
@@ -13,7 +26,7 @@ Dada la siguiente API pública <https://api.citybik.es/v2/networks/bikerio> desa
 -	Opcional. Generar vista en el administrador para visualizar la información obtenida.
 -	Opcional. Generar una vista con la información en Bootstrap 5 u otro similar.
 
-# Tarea 2
+## Tarea 2
 Dada la siguiente url <https://snifa.sma.gob.cl/Sancionatorio/Resultado> desarrolle los siguiente requerimientos:
 
 -	Crear un script para obtener la información presentada en la tabla de la url proporcionada (librerías a utilizar: BeautifulSoup o Selenium).
@@ -25,10 +38,12 @@ Dada la siguiente url <https://snifa.sma.gob.cl/Sancionatorio/Resultado> desarro
 
 # Request
 ## Librerias adicionales
+```js
+  pip install request
 
-`pip install request`
+  pip install psycopg2
+```
 
-`pip install psycopg2`
 
 
 # Crear el entorno virtual
@@ -94,3 +109,4 @@ Django ve asi las aplicaciones, se pueden ir quitando o agregando como funcional
 `pip install selenium`
 `pip install webdriver_manager`
 
+***El código se encuentra en la app web, en view hay que descomentar para que el boot realice el web scrapy***
