@@ -129,16 +129,16 @@ python manage.py migrate nombreAplicacion
 
 ## Eliminar venv y restaurar
 Exportar la lista de paquetes mediante 
-```txt
+```js
 pip freeze > requirements.txt
 ```
 Luego cerrar el entorno y eliminar la carpeta.
 Para restaurar, seguir los mismos pasos para crearlo: 
-```py
+```js
 python -m venv nombreENV
 ```
 Activarlo y instalar las dependencias 
-```py 
+```js 
 pip install -r requirements.txt
 ```
 **Finalmente puedo crear las carpetas nuevamente y copiar los archivos con los comandos para cada aplicacion**.
@@ -152,10 +152,10 @@ pip install -r requirements.txt
 
 
 ## Librerias adicionales
-```py
+```js
 pip install selenium
 ```
-```py
+```js
 pip install webdriver_manager
 ```
 ```js
