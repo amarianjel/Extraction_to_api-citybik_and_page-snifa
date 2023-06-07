@@ -1,21 +1,23 @@
-# [Índice]
+# Índice
 
 - [Proyecto Django](#proyecto-django)
 - [Tarea 1](#tarea-1)
 - [Tarea 2](#tarea-2)
+- [Crear el entorno virtual](#crear-el-entorno-virtual)
 - [Request](#request)
 - [Librerias adicionales](#librerias-adicionales)
-- [Crear el entorno virtual](#crear-el-entorno-virtual)
 - [Instalar DJANGO](#instalar-django)
 - [Aplicaciones](#aplicaciones)
 - [BDD PostgreSQL](#bdd-postgresql)
 - [Eliminar venv y restaurar](#eliminar-venv-y-restaurar)
 
-# Proyecto Django (https://www.djangoproject.com/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/django/django)
+# Proyecto [Django](https://www.djangoproject.com/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/django/django)[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://docs.djangoproject.com/en/4.2/)
 
 <p align="center">
   <img src="https://www.opengis.ch/wp-content/uploads/2020/04/django-python-logo.png" alt="Logo Django">
 </p>
+
+[Leer como usar Django en tu proyecto](https://docs.djangoproject.com/en/4.2/).
 
 ## Tarea 1
 Dada la siguiente API pública <https://api.citybik.es/v2/networks/bikerio> desarrolle los siguiente requerimientos:
@@ -36,65 +38,112 @@ Dada la siguiente url <https://snifa.sma.gob.cl/Sancionatorio/Resultado> desarro
 -	Opcional. Generar vista en el administrador para visualizar la información obtenida.
 -	Opcional. Generar una vista con la información en Bootstrap 5 u otro similar.
 
-# Request
-## Librerias adicionales
+# Crear el entorno virtual
+1. Una vez dento de la carpeta madre, se crea el ntorno virtual. Primero se instala.
 ```js
-  pip install request
+pip install virtualenv
+```
 
-  pip install psycopg2
+2. Creo ahora el entorno virtual.
+```js
+virtualenv venv
+```
+3. Ahora se debe ejecutar o activar.
+```js
+_./venv/Scripts/activate_
+```
+4. Finalmente con F1 puedo seleccionar el python que yo deseo para mi trabajo.
+
+## Instalar DJANGO
+```js
+pip install django
+```
+```js
+django-admin --version
+```
+Ahora para crear al proyecto inicial debemos utilizar el siguiente comando seguido de la carpeta como se llamara. ***El punto es para decirle que coloque la carpeta en la raiz y no que en la raiz realice una capeta y dentro de ella el proyecto.***
+```js
+django-admin startproject nombreDelProyecto 
+```
+```js
+django-admin startproject myapp .
+```
+Para correr el archivo
+```js
+python manage.py runserver 8000
 ```
 
 
-
-# Crear el entorno virtual
-- Una vez dento de la carpeta madre, se crea el entorno virtual. Primero se instala.
-1. `pip install virtualenv`
-- Creo ahora el entorno virtual.
-2. `virtualenv venv`
-- Ahora se debe ejecutar o activar.
-3. _./venv/Scripts/activate_
-- Finalmente con F1 puedo seleccionar el python que yo deseo para mi trabajo.
-
-# Instalar DJANGO
-1. `pip install django`
-2. `django-admin --version`
-- Ahora para crear al proyecto inicial debemos utilizar el siguiente comando seguido de la carpeta como se llamara. ***El punto es para decirle que coloque la carpeta en la raiz y no que en la raiz realice una capeta y dentro de ella el proyecto.***
-3. `django-admin startproject nombreDelProyecto .` django-admin startproject myapp .
-
-- Para correr el archivo
-4. `python manage.py runserver 8000`
-
-
-# Aplicaciones
+## Aplicaciones
 Django ve asi las aplicaciones, se pueden ir quitando o agregando como funcionalidades
 
 <p align="center">
   <img src="./web/static/img/Aplicaciones-django.png" alt="Forma de que ve DJango">
 </p>
 
-`python manage.py startapp nombreAplicacion`
+```js
+python manage.py startapp nombreAplicacion
+```
 
-
-##### BDD PostgreSQL
+## BDD PostgreSQL
 - Instalar la bdd de datos a ocupar, luego configurarla en DATABASES{} (aplicacionBase/setting.py). Comandos Generales primero
-1. `python manage.py makemigrations`
-2. `python manage.py migrate`
+```js
+DATABASES = {
+  'default': {
+      'ENGINE': 'django.db.backends.postgresql_psycopg2',
+      'NAME': 'extraction_request',
+      'USER': 'postgres',
+      'PASSWORD': 'root',
+      'HOST': 'localhost',
+      'PORT': '5432',
+  }
+}
+```
+```js
+python manage.py makemigrations
+```
+```js
+python manage.py migrate
+```
+
 - Crear la tabla en models.py y agregar en INSTALLED_APPS (setting.py) la aplicacion base.
 - Ejecutar las migraciones
-1. `python manage.py makemigrations nombreAplicacion`
-2. `python manage.py migrate nombreAplicacion`
+```js
+INSTALLED_APPS = [
+  'django.contrib.admin',
+  'django.contrib.auth',
+  'django.contrib.contenttypes',
+  'django.contrib.sessions',
+  'django.contrib.messages',
+  'django.contrib.staticfiles',
+  'web',
+]
+```
+```js
+python manage.py makemigrations nombreAplicacion
+```
+```js
+python manage.py migrate nombreAplicacion
+```
 *Si la bdd se borro desde postgres, realizar pasos para la conexion desde el principio creando una nueva bdd*
 
-
-
 ## Eliminar venv y restaurar
-- Exportar la lista de paquetes mediante `pip freeze > requirements.txt`
-- Luego cerrar el entorno y eliminar la carpeta.
-- Para restaurar, seguir los mismos pasos para crearlo `python -m venv nombreENV`
-- Activarlo y instalar las dependencias `pip install -r requirements.txt`
-- **Finalmente puedo crear las carpetas nuevamente y copiar los archivos con los comandos para cada aplicacion.
+Exportar la lista de paquetes mediante 
+```txt
+pip freeze > requirements.txt
+```
+Luego cerrar el entorno y eliminar la carpeta.
+Para restaurar, seguir los mismos pasos para crearlo: 
+```py
+python -m venv nombreENV
+```
+Activarlo y instalar las dependencias 
+```py 
+pip install -r requirements.txt
+```
+**Finalmente puedo crear las carpetas nuevamente y copiar los archivos con los comandos para cada aplicacion**.
 
-
+### Sintaxis
 | **NOMBRE** | **SÍMBOLO** |
 |--------|--------|
 | *Template inheritance* | {% url 'index' %} |
@@ -102,11 +151,54 @@ Django ve asi las aplicaciones, se pueden ir quitando o agregando como funcional
 | *Static Files* | {% load static %} |
 
 
-
-# Selenium
-
 ## Librerias adicionales
-`pip install selenium`
-`pip install webdriver_manager`
+```py
+pip install selenium
+```
+```py
+pip install webdriver_manager
+```
+```js
+pip install request
+
+pip install psycopg2
+```
 
 ***El código se encuentra en la app web, en view hay que descomentar para que el boot realice el web scrapy***
+
+### Estructura del proyecto
+Esta estructura contempla las carpetas mas importantes con algunos archivos
+```
+request_selenium/
+├── myapp/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── web/
+|   ├── extraction/
+|   |   ├── tarea1_request.py
+|   |   ├── tarea2_selenium.py
+│   ├── migrations/
+│   ├── templates/
+│   │   ├── index.html
+|   |   ├── navbar.html
+|   |   ├── selenium.html
+│   ├── static/
+|   |   ├── css/
+|   |   |   ├── main.css
+|   |   ├── img/
+|   |   |   ├── Aplicaciones.png
+|   |   |   ├── Baldr.png
+|   |   ├── json/
+|   |   |   ├── procedimientos_sanitarios.json
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   └── views.py
+├── .gitIgnore
+├── manage.py
+├── README.md
+└── ...
