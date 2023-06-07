@@ -6,39 +6,68 @@
 <p>SELENIUM es una biblioteca de Python que se utiliza para la automatización de navegadores web. Permite controlar un navegador web de forma programática y realizar acciones como hacer clic en elementos, completar formularios, obtener contenido de una página web, realizar capturas de pantalla y mucho más. selenium es útil cuando necesitas interactuar con páginas web dinámicas que requieren JavaScript para funcionar correctamente.</p>
 <hr>
 <br>
+
 <table>
     <thead>
         <tr>
-        <th>#</th>
-        <th>Expediente</th>
-        <th>Unidad Fiscalizadora</th>
-        <th>Nombre</th>
-        <th>Categoria</th>
-        <th>Region</th>
-        <th>Estado</th>
+            <th colspan="7">Procedimientos Sancionatorios</th>
+            <th class="verDetalles" colspan="1">Ver Detalles</th>
+        </tr>
+        <tr>
+            <th>#</th>
+            <th>Expediente</th>
+            <th>Unidad Fiscalizadora</th>
+            <th>Nombre</th>
+            <th>Categoria</th>
+            <th>Region</th>
+            <th>Estado</th>
+            <th class="verDetalles">Inicio</th>
         </tr>
     </thead>
     <tbody>
         {% for dato in selenium_json %}
         <tr>
-            <td>{{ dato.Numero }}</td>
+            <td>{{ dato.Contador }}</td>
             <td>{{ dato.Expediente }}</td>
             <td>{{ dato.Unidad_Fiscalizadora }}</td>
             <td>{{ dato.Nombre }}</td>
             <td>{{ dato.Categoria }}</td>
             <td>{{ dato.Region }}</td>
             <td>{{ dato.Estado }}</td>
-            <td>{{ dato.FechaInicio }}</td>
-            <td>{{ dato.FechaTermino }}</td>
+            <td>{{ dato.Ver_Detalles.F_Inicio }}</td>
         </tr>
     {% endfor %}
     </tbody>
 </table>  
 
-
-
 <br>
 <hr>
+<br>
+
+<table>
+    <thead>
+        <tr>
+            <th class="verDetalles" colspan="5">Ver Detalles</th>
+        </tr>
+        <tr>
+            <th class="verDetalles">#</th>
+            <th class="verDetalles">Documento</th>
+            <th class="verDetalles">Tipo</th>
+            <th class="verDetalles">Fecha</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for dato in selenium_json %}
+        <tr>
+            <td>{{ dato.Ver_Detalles.Documentos.dCont }}</td>
+            <td>{{ dato.Ver_Detalles.Documentos.dNombre }}</td>
+            <td>{{ dato.Ver_Detalles.Documentos.dTipo }}</td>
+            <td>{{ dato.Ver_Detalles.Documentos.dFecha }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>        
+</table>
+
 
 <h1>Contenido del archivo JSON como API:</h1>
 <div id="json-container"></div>

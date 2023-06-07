@@ -94,24 +94,3 @@ Django ve asi las aplicaciones, se pueden ir quitando o agregando como funcional
 `pip install selenium`
 `pip install webdriver_manager`
 
-## Estructura estatica del proyecto
-```
-.
-├── LICENSE
-├── README.md
-├── app
-
-
-request_selenium/
-    myapp/
-        static/
-          # archivos estáticos de myapp
-    web/
-        static/
-          # archivos estáticos de web
-    static/
-        # archivos estáticos del proyecto
-    staticfiles/
-        # directorio de archivos estáticos recolectados
-    manage.py
-    settings.py```
