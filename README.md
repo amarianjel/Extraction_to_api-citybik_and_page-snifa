@@ -202,7 +202,7 @@ pip install -r requirements.txt
 | *Static Files* | {% load static %} |
 
 
-## Librerias adicionales
+## 🏫 Librerias adicionales 🏫
 ```js
 pip install selenium
 ```
@@ -219,7 +219,7 @@ pip install psycopg2
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-### Estructura del proyecto
+### 📑 Estructura del proyecto 📑
 Esta estructura contempla las carpetas mas importantes con algunos archivos
 ```
 request_selenium/
