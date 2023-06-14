@@ -32,7 +32,7 @@
 [Leer como usar Django en tu proyecto](https://docs.djangoproject.com/en/4.2/).
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-## Tarea 1
+## 📑 Tarea 1 📑
 Dada la siguiente API pública <https://api.citybik.es/v2/networks/bikerio> desarrolle los siguiente requerimientos:
 
 -	Crear una función que obtenga la información presentada en la API pública (librerías a utilizar: requests, urllib3 o aiohttp).
@@ -43,7 +43,7 @@ Dada la siguiente API pública <https://api.citybik.es/v2/networks/bikerio> desa
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
 
-## Tarea 2
+## 📑 Tarea 2 📑
 Dada la siguiente url <https://snifa.sma.gob.cl/Sancionatorio/Resultado> desarrolle los siguiente requerimientos:
 
 -	Crear un script para obtener la información presentada en la tabla de la url proporcionada (librerías a utilizar: BeautifulSoup o Selenium).
@@ -129,7 +129,7 @@ python manage.py runserver 8000
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## Aplicaciones
+## 🚩 Aplicaciones 🚩
 Django ve asi las aplicaciones, se pueden ir quitando o agregando como funcionalidades
 
 <p align="center">
