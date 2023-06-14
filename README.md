@@ -72,19 +72,19 @@ Dada la siguiente url <https://snifa.sma.gob.cl/Sancionatorio/Resultado> desarro
   <tbody>
     <tr>
       <td>
-        <img src="https://i.postimg.cc/05MYmxp1/django.png" width="100px" />
+        <img src="https://i.postimg.cc/05MYmxp1/django.png" width="150px" />
       </td>
       <td>
-        <img src="https://i.postimg.cc/mgSDG9F2/css.png" width="100px" />
+        <img src="https://i.postimg.cc/mgSDG9F2/css.png" width="150px" />
       </td>
       <td>
-        <img src="https://i.postimg.cc/kXtn2xRM/requests-sidebar.png" width="100px" />
+        <img src="https://i.postimg.cc/kXtn2xRM/requests-sidebar.png" width="150px" />
       </td>
       <td>
-        <img src="https://i.postimg.cc/3wkR6rrK/selenium.png" width="100px" />
+        <img src="https://i.postimg.cc/3wkR6rrK/selenium.png" width="150px" />
       </td>
       <td>
-        <img src="https://i.postimg.cc/YCbGZy1x/postgresql.png" width="100px" />
+        <img src="https://i.postimg.cc/YCbGZy1x/postgresql.png" width="150px" />
       </td>
     </tr>
   </tbody>
