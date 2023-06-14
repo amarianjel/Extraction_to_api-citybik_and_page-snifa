@@ -1,16 +1,3 @@
-# Índice
-
-- [Proyecto Django](#proyecto-django)
-- [Tarea 1](#tarea-1)
-- [Tarea 2](#tarea-2)
-- [Crear el entorno virtual](#crear-el-entorno-virtual)
-- [Request](#request)
-- [Librerias adicionales](#librerias-adicionales)
-- [Instalar DJANGO](#instalar-django)
-- [Aplicaciones](#aplicaciones)
-- [BDD PostgreSQL](#bdd-postgresql)
-- [Eliminar venv y restaurar](#eliminar-venv-y-restaurar)
-
 <div align="center">
 
 # Proyecto [Django](https://www.djangoproject.com/) &middot; [<img src="https://i.postimg.cc/wT4x8tWS/codepenblanco.png" alt="LinkedIn" class="footer-nav__link-image" height="30px" />](https://codepen.io/amarianjel/)   [<img src="https://i.postimg.cc/5NBMxTJX/github.png" alt="GitHub" class="footer-nav__link-image" height="30px" />](https://github.com/amarianjel)   [<img src="https://i.postimg.cc/1Xj3mL3G/github-Pages-blanco.png" alt="GitHub" class="footer-nav__link-image" height="70px" style="margin-bottom: -20px;"/>](https://amarianjel.github.io/Portfolio/)  [<img src="https://i.postimg.cc/J7BLFtdc/linkedin.png" alt="LinkedIn" class="footer-nav__link-image" height="30px" />](https://www.linkedin.com/in/amarianjel/)   [<img src="https://i.postimg.cc/1zqYRTyp/facebook.png" alt="LinkedIn" class="footer-nav__link-image" height="30px" />](https://www.facebook.com/Abraham13071993/)   [<img src="https://i.postimg.cc/sfJtqS4W/instagram.png" alt="Instagram" class="footer-nav__link-image" height="30px" />](https://www.instagram.com/abr_marianjel/)
