@@ -11,6 +11,8 @@
 - [BDD PostgreSQL](#bdd-postgresql)
 - [Eliminar venv y restaurar](#eliminar-venv-y-restaurar)
 
+<div align="center">
+
 # Proyecto [Django](https://www.djangoproject.com/) &middot; 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/django/django)
 [![forthebadge](https://img.shields.io/badge/Made%20with-Django-darkgreen.svg)](https://www.djangoproject.com/)
@@ -19,6 +21,9 @@
 [![forthebadge](https://img.shields.io/badge/Made%20with-Selenium-green.svg)](https://www.selenium.dev/)
 [![Issues](https://img.shields.io/github/issues/amarianjel/Extraction_to_api-citybik_and_page-snifa?color=0088ff)](https://github.com/amarianjel/Extraction_to_api-citybik_and_page-snifa/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/amarianjel/Extraction_to_api-citybik_and_page-snifa?color=0088ff)](https://github.com/amarianjel/Extraction_to_api-citybik_and_page-snifa/pulls)
+
+</div>
+
 
 <p align="center">
   <img src="https://www.opengis.ch/wp-content/uploads/2020/04/django-python-logo.png" alt="Logo Django">
