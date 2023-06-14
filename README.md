@@ -13,7 +13,7 @@
 
 <div align="center">
 
-# Proyecto [Django](https://www.djangoproject.com/) &middot; 
+# Proyecto [Django](https://www.djangoproject.com/) &middot; [<img src="https://i.postimg.cc/wT4x8tWS/codepenblanco.png" alt="LinkedIn" class="footer-nav__link-image" height="30px" />](https://codepen.io/amarianjel/)   [<img src="https://i.postimg.cc/5NBMxTJX/github.png" alt="GitHub" class="footer-nav__link-image" height="30px" />](https://github.com/amarianjel)   [<img src="https://i.postimg.cc/1Xj3mL3G/github-Pages-blanco.png" alt="GitHub" class="footer-nav__link-image" height="70px" style="margin-bottom: -20px;"/>](https://amarianjel.github.io/Portfolio/)  [<img src="https://i.postimg.cc/J7BLFtdc/linkedin.png" alt="LinkedIn" class="footer-nav__link-image" height="30px" />](https://www.linkedin.com/in/amarianjel/)   [<img src="https://i.postimg.cc/1zqYRTyp/facebook.png" alt="LinkedIn" class="footer-nav__link-image" height="30px" />](https://www.facebook.com/Abraham13071993/)   [<img src="https://i.postimg.cc/sfJtqS4W/instagram.png" alt="Instagram" class="footer-nav__link-image" height="30px" />](https://www.instagram.com/abr_marianjel/)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/django/django)
 [![forthebadge](https://img.shields.io/badge/Made%20with-Django-darkgreen.svg)](https://www.djangoproject.com/)
 [![forthebadge](https://img.shields.io/badge/Made%20with-PostgreSQL-blue.svg)](https://www.postgresql.org/)
@@ -54,7 +54,43 @@ Dada la siguiente url <https://snifa.sma.gob.cl/Sancionatorio/Resultado> desarro
 -	Opcional. Generar una vista con la información en Bootstrap 5 u otro similar.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-# Crear el entorno virtual
+
+
+## 👨‍💻 Tecnologías Usadas 👨‍💻
+<table>
+  <thead>
+    <tr>
+      <th>Django</th>
+      <th>CSS</th>
+      <th>Request</th>
+      <th>Selenium</th>
+      <th>PostgreSQL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img src="https://i.postimg.cc/05MYmxp1/django.png" width="100%" />
+      </td>
+      <td>
+        <img src="https://i.postimg.cc/mgSDG9F2/css.png" width="100%" />
+      </td>
+      <td>
+        <img src="https://i.postimg.cc/kXtn2xRM/requests-sidebar.png" width="100%" />
+      </td>
+      <td>
+        <img src="https://i.postimg.cc/3wkR6rrK/selenium.png" width="100%" />
+      </td>
+      <td>
+        <img src="https://i.postimg.cc/YCbGZy1x/postgresql.png" width="100%" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+# 🚀 Crear el entorno virtual 🚀
 1. Una vez dento de la carpeta madre, se crea el ntorno virtual. Primero se instala.
 ```js
 pip install virtualenv
@@ -72,7 +108,7 @@ _./venv/Scripts/activate_
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## Instalar DJANGO
+## 🛠 Instalar DJANGO 🛠
 ```js
 pip install django
 ```
@@ -106,7 +142,7 @@ python manage.py startapp nombreAplicacion
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## BDD PostgreSQL
+## 🛠 BDD PostgreSQL 🛠
 - Instalar la bdd de datos a ocupar, luego configurarla en DATABASES{} (aplicacionBase/setting.py). Comandos Generales primero
 ```js
 DATABASES = {
@@ -151,7 +187,7 @@ python manage.py migrate nombreAplicacion
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## Eliminar venv y restaurar
+## 🚀 Eliminar venv y restaurar 🚀
 Exportar la lista de paquetes mediante 
 ```js
 pip freeze > requirements.txt
