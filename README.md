@@ -11,7 +11,14 @@
 - [BDD PostgreSQL](#bdd-postgresql)
 - [Eliminar venv y restaurar](#eliminar-venv-y-restaurar)
 
-# Proyecto [Django](https://www.djangoproject.com/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/django/django)[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://docs.djangoproject.com/en/4.2/)
+# Proyecto [Django](https://www.djangoproject.com/) &middot; 
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/django/django)
+[![forthebadge](https://img.shields.io/badge/Made%20with-Django-darkgreen.svg)](https://www.djangoproject.com/)
+[![forthebadge](https://img.shields.io/badge/Made%20with-PostgreSQL-blue.svg)](https://www.postgresql.org/)
+[![forthebadge](https://img.shields.io/badge/Made%20with-Requests-yellowgreen.svg)](https://requests.readthedocs.io/)
+[![forthebadge](https://img.shields.io/badge/Made%20with-Selenium-green.svg)](https://www.selenium.dev/)
+[![Issues](https://img.shields.io/github/issues/amarianjel/Extraction_to_api-citybik_and_page-snifa?color=0088ff)](https://github.com/amarianjel/Extraction_to_api-citybik_and_page-snifa/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/amarianjel/Extraction_to_api-citybik_and_page-snifa?color=0088ff)](https://github.com/amarianjel/Extraction_to_api-citybik_and_page-snifa/pulls)
 
 <p align="center">
   <img src="https://www.opengis.ch/wp-content/uploads/2020/04/django-python-logo.png" alt="Logo Django">
@@ -19,6 +26,7 @@
 
 [Leer como usar Django en tu proyecto](https://docs.djangoproject.com/en/4.2/).
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 ## Tarea 1
 Dada la siguiente API pública <https://api.citybik.es/v2/networks/bikerio> desarrolle los siguiente requerimientos:
 
@@ -27,6 +35,8 @@ Dada la siguiente API pública <https://api.citybik.es/v2/networks/bikerio> desa
 -	Guardar en el modelo la información obtenida desde el API.
 -	Opcional. Generar vista en el administrador para visualizar la información obtenida.
 -	Opcional. Generar una vista con la información en Bootstrap 5 u otro similar.
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
 
 ## Tarea 2
 Dada la siguiente url <https://snifa.sma.gob.cl/Sancionatorio/Resultado> desarrolle los siguiente requerimientos:
@@ -38,6 +48,7 @@ Dada la siguiente url <https://snifa.sma.gob.cl/Sancionatorio/Resultado> desarro
 -	Opcional. Generar vista en el administrador para visualizar la información obtenida.
 -	Opcional. Generar una vista con la información en Bootstrap 5 u otro similar.
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 # Crear el entorno virtual
 1. Una vez dento de la carpeta madre, se crea el ntorno virtual. Primero se instala.
 ```js
@@ -53,6 +64,8 @@ virtualenv venv
 _./venv/Scripts/activate_
 ```
 4. Finalmente con F1 puedo seleccionar el python que yo deseo para mi trabajo.
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## Instalar DJANGO
 ```js
@@ -73,6 +86,7 @@ Para correr el archivo
 python manage.py runserver 8000
 ```
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## Aplicaciones
 Django ve asi las aplicaciones, se pueden ir quitando o agregando como funcionalidades
@@ -84,6 +98,8 @@ Django ve asi las aplicaciones, se pueden ir quitando o agregando como funcional
 ```js
 python manage.py startapp nombreAplicacion
 ```
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## BDD PostgreSQL
 - Instalar la bdd de datos a ocupar, luego configurarla en DATABASES{} (aplicacionBase/setting.py). Comandos Generales primero
@@ -127,6 +143,9 @@ python manage.py migrate nombreAplicacion
 ```
 *Si la bdd se borro desde postgres, realizar pasos para la conexion desde el principio creando una nueva bdd*
 
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ## Eliminar venv y restaurar
 Exportar la lista de paquetes mediante 
 ```js
@@ -142,6 +161,8 @@ Activarlo y instalar las dependencias
 pip install -r requirements.txt
 ```
 **Finalmente puedo crear las carpetas nuevamente y copiar los archivos con los comandos para cada aplicacion**.
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### Sintaxis
 | **NOMBRE** | **SÍMBOLO** |
@@ -165,6 +186,8 @@ pip install psycopg2
 ```
 
 ***El código se encuentra en la app web, en view hay que descomentar para que el boot realice el web scrapy***
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### Estructura del proyecto
 Esta estructura contempla las carpetas mas importantes con algunos archivos
